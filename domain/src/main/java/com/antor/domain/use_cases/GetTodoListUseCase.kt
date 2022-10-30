@@ -3,6 +3,8 @@ package com.antor.domain.use_cases
 import com.antor.domain.common.Resource
 import com.antor.domain.model.UserModel
 import com.antor.data.repository.ApiRepository
+import com.antor.domain.model.TodoModel
+import com.antor.domain.model.toTodoModel
 import com.antor.domain.model.toUserModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -10,17 +12,17 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-class GetUserListUseCase @Inject constructor(
+class GetTodoListUseCase @Inject constructor(
     private val repository: ApiRepository
 ) {
-    operator fun invoke(): Flow<Resource<List<UserModel>>> = flow {
+    operator fun invoke(): Flow<Resource<List<TodoModel>>> = flow {
 
         try {
             emit(Resource.Loading())
 
-            val response = repository.getUserList()
-            val list = if (response.isEmpty()) emptyList<UserModel>() else response.map {
-                it.toUserModel()
+            val response = repository.getTodoList()
+            val list = if (response.isEmpty()) emptyList() else response.map {
+                it.toTodoModel()
             }
             emit(Resource.Success(data = list))
 

@@ -1,6 +1,5 @@
 package com.antor.data.dto.user
 
-import com.antor.domain.model.UserModel
 
 data class UsersItem(
     val address: Address,
@@ -12,17 +11,3 @@ data class UsersItem(
     val username: String,
     val website: String
 )
-
-
-fun UsersItem.toUserModel(): UserModel {
-    return UserModel(
-        address,
-        company,
-        email,
-        id,
-        name,
-        phone,
-        username,
-        website
-    )
-}

@@ -1,4 +1,4 @@
-package com.antor.domain.repository
+package com.antor.data.repository
 
 import com.antor.data.dto.todos.TodoItemListDTO
 import com.antor.data.dto.user.UsersDTO

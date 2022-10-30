@@ -1,9 +1,8 @@
 package com.antor.filtermytodos.di
 
 import android.content.Context
-import com.antor.data.data_repository.DataRepository
+import com.antor.data.repository.DataRepository
 import com.antor.data.remote.RemoteApi
-import com.antor.domain.repository.ApiRepository
 import com.antor.filtermytodos.common.Constants
 import com.chuckerteam.chucker.api.ChuckerInterceptor
 import dagger.Module
@@ -47,7 +46,7 @@ object AppModules {
 
     @Provides
     @Singleton
-    fun provideApiRepository(api : RemoteApi): ApiRepository {
+    fun provideApiRepository(api : RemoteApi): com.antor.data.repository.ApiRepository {
         return DataRepository(api)
     }
 }
