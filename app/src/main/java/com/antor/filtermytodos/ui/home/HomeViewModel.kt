@@ -20,6 +20,8 @@ class HomeViewModel @Inject constructor(
     private val getTodoListUseCase: GetTodoListUseCase,
 ): ViewModel() {
 
+
+
     private val _userData = MutableStateFlow(UserState())
     val getUserListData : StateFlow<UserState> = _userData
 
@@ -60,7 +62,7 @@ class HomeViewModel @Inject constructor(
 
                 }
                 is Resource.Success->{
-                    _toDoData.value= TodoState(userList = it.data, isLoading = false)
+                    _toDoData.value= TodoState(todoList  = it.data, isLoading = false)
 
                 }
             }
