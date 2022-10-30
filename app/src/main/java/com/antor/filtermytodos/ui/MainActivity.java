@@ -1,8 +1,10 @@
-package com.antor.filtermytodos;
+package com.antor.filtermytodos.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.antor.filtermytodos.R;
 
 public class MainActivity extends AppCompatActivity {
 
