@@ -9,17 +9,21 @@
 * Retrofit for network call
 * Dependency injection with Hilt
 * Navigation Components
+* Andorid Splash screen
 * Coroutine
+* ViewBinding
 * Spinner   
 * Recyclerview  
+* Chucker for inspection htto request 
+
 
 
 
 
 #### App Screnshots
-[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/1%20spash.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/1%20spash.jpg)
-[<img src="https://github.com/antorparvez/BongoTalkies/blob/master/screenshots/homepage.jpeg"
-height=300 width=160>](https://github.com/antorparvez/BongoTalkies/blob/master/screenshots/homepage.jpeg)
-[<img src="https://github.com/antorparvez/BongoTalkies/blob/master/screenshots/pagination.jpeg" height=300 width=160>](https://github.com/antorparvez/BongoTalkies/blob/master/screenshots/pagination.jpeg)
-[<img src="https://github.com/antorparvez/BongoTalkies/blob/master/screenshots/details.jpeg" height=300 width=160>](https://github.com/antorparvez/BongoTalkies/blob/master/screenshots/details.jpeg)
-
+[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/1spash.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/1spash.jpg)
+[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/2loader.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/2loader.jpg)
+[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/3home.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/3home.jpg)
+[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/4user_dropdown.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/4user_dropdown.jpg)
+[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/5filter_todo.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/5filter_todo.jpg)
+[<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/6filter_todo2.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/6filter_todo2.jpg)
