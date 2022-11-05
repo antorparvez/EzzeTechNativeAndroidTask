@@ -27,3 +27,7 @@
 [<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/4user_dropdown.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/4user_dropdown.jpg)
 [<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/5filter_todo.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/5filter_todo.jpg)
 [<img src="https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/6filter_todo2.jpg" height=300 width=160>](https://github.com/antorparvez/EzzeTechNativeAndroidTask/blob/master/screen/6filter_todo2.jpg)
+
+
+## Visitors Count
+<img height="30px" src = "https://profile-counter.glitch.me/vnapnic/count.svg" alt ="Loading">
